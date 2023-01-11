@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: rgb(199, 199, 199);
+}
+
+.navb{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+#logo{
+    width: 180px;
+    height: 100px;
+    object-fit: contain;
+}
+li{
+
+    color: white;
+    list-style: none;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 15px;
+    transition: 0.3s;
+}
+
+li:hover{
+    background-color: rgb(158, 158, 158);
+    cursor: pointer;
+  
+    transform: scale(95%);
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    column-gap: 50px;
+
+}
+.Links{
+    color: black;
+    text-decoration: none;
+}
+
+
+.cardDiv{
+    
+    -webkit-box-shadow: inset 2px 0px 40px 0px rgba(89,123,128,1);
+    -moz-box-shadow: inset 2px 0px 40px 0px rgba(89,123,128,1);
+    box-shadow: inset 2px 0px 40px 0px rgba(89,123,128,1);
+    width: 3500px;
+    height: 450px;
+    border-radius: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    transition: 0.2s;
+ }
+ img{
+    padding-top: 0;
+     width: 100%;
+     height: 170px;
+     border-top-left-radius: 15px;
+     border-top-right-radius: 15px;
+     object-fit: contain;
+  
+ 
+ }
+ .cardDiv:hover{
+     
+ 
+     cursor: pointer;
+ }
+ .cards{
+     width: 250px;
+     margin: auto;
+     flex-wrap: wrap;
+     display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+ }
+ .salam{
+     width: 70%;
+     margin: auto;
+     height: 100vh;
+     display: flex;
+     flex-wrap: wrap;
+ }
+.buttonsDiv{
+    margin:20px;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(146, 146, 146);
+    border: none;
+}
+.buttons:hover{
+    transform: scale(99%);
+    opacity: 0.9;
+    
+}
+#checked{
+    color: rgb(0, 104, 0);
+    font-weight: 900;
+}
+#no{
+    color: rgb(104, 0, 0);
+    font-weight: 900;
+}
